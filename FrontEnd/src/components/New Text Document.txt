@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+void oddEven(int no){
+    if((no%2)==0){
+        printf("Number is Even");
+    }
+    else{
+        printf("Number is Odd");
+    }
+}
+
+void findNaturalNum(int n){
+    for(int i=1;i<=n;i++){
+        printf("%d",i);
+    }
+}
+
+int main() {
+    int ch,ch2;
+    do{
+        printf("Press 1. to find Odd-Even Number\nPress 2. For First N Natural Numbers\nEnter your Choice :: ");
+        scanf("%d",&ch);
+        if(ch==1){
+            int no;
+            printf("\nEnter Number To Check :: ");
+            scanf("%d",&no);
+            oddEven(no);
+        }
+        else if(ch==2){
+            int no;
+            printf("\nEnter Number To Print :: ");
+            scanf("%d",&no);
+            findNaturalNum(no);
+        }
+        else{
+            printf("\nInvalid Choice");
+        }
+        
+        printf("\n\nPress. 1 to Continue..");
+        scanf("%d",&ch2);
+    }while(ch2==1);
+    return 0;
+}

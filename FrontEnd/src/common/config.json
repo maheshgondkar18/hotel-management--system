@@ -1,0 +1,9 @@
+{
+    "AuthUrl" : "http://localhost:1010/auth/",
+    "RoomUrl":"http://localhost:1113/room",
+    "StaffUrl":"http://localhost:1110/staff",
+    "ReservationUrl":"http://localhost:1113/reservation",
+    "GuestUrl":"http://localhost:1118/guest",
+    "InventoryUrl":"http://localhost:1200/inventory",
+    "BillingUrl":"http://localhost:1201/billing"
+}

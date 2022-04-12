@@ -1,0 +1,15 @@
+paytm.payment:
+  sandbox:
+    merchantId: BCDnQs62588414991873
+    merchantKey: Nh3QcNOqgmIxu8h9
+    channelId: WEB
+    website: WEBSTAGING
+    industryTypeId: Retail
+    paytmUrl:  https://securegw-stage.paytm.in/order/process
+    callbackUrl: http://localhost:1201/pgresponse
+    details:
+      MID: ${paytm.payment.sandbox.merchantid}
+      CHANNEL_ID: ${paytm.payment.sandbox.channelid}
+      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industrytypeid}
+      WEBSITE: ${paytm.payment.sandbox.website}
+      CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}

@@ -1,0 +1,8 @@
+
+Y
+java:S1612'"<Replace this lambda with method reference 'parameters::put'.(²öˆÇ8¹þ•‚ü/
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(ŒíÀà8¾ñ‚ü/
+t
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(„Ýëªûÿÿÿÿ
+c
+java:S1192."MDefine a constant instead of duplicating this literal "CHECKSUMHASH" 4 times.(ö‘€±
